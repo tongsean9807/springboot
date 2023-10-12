@@ -27,7 +27,7 @@ curl -X POST -H "Content-Type: application/json" -d '[{ "key": "order_sean", "va
 ```
  curl http://localhost:3601/v1.0/state/statestore/order_sean
 ```
-![image](https://github.com/tongsean9807/springboot/assets/105337968/e5e8ea19-a6fd-4b08-9a84-87a72fed4837)
+![image](https://github.com/tongsean9807/springboot/assets/105337968/3d7d4d31-245f-4106-b664-67e82d28ccd3)
 
 
 ## Install
@@ -49,8 +49,7 @@ Link to installation command:
 ```
 dapr -h
 ```
-![image](https://github.com/intel-sandbox/dapr-springbootframework/assets/105337968/ae93dd99-7478-438f-904e-a7f24c9a0bd0)
-
+![image](https://github.com/tongsean9807/springboot/assets/105337968/28651868-8362-488d-b77d-e5a488916584)
 
 ## SpringBoot
 The jar file statetest-0.0.1-SNAPSHOT.jar is build using eclipse IDE.
