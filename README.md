@@ -8,7 +8,7 @@ dapr run --app-id my_app --app-port 6001 --dapr-http-port 3601 --dapr-grpc-port 
 ```
 ## Server will start
 Output:
-![image](https://github.com/intel-sandbox/dapr-springbootframework/assets/105337968/31075117-92a3-4172-b890-8dc239f68851)
+![image](https://github.com/tongsean9807/springboot/assets/105337968/d7adb2e7-917a-420f-9bb0-a7d3c205b873)
 
 ## Curl Test for state management
 DAPR has a state management and other capabilities. It will store the state in redis.
@@ -21,7 +21,8 @@ curl -X POST -H "Content-Type: application/json" -d '[{ "key": "order_sean", "va
 ```
  curl http://localhost:3601/v1.0/state/statestore/order_sean
 ```
-![image](https://github.com/intel-sandbox/dapr-springbootframework/assets/105337968/229be106-83cf-4150-9794-ef8b7743213d)
+![image](https://github.com/tongsean9807/springboot/assets/105337968/e5e8ea19-a6fd-4b08-9a84-87a72fed4837)
+
 
 ## Install
 Link to installation command:
