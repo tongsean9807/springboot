@@ -1,0 +1,5 @@
+package com.tongsean.springboot.springbootbasicapi;
+
+public class Course {
+
+}

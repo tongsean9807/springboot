@@ -1,0 +1,5 @@
+package com.tongsean.daprspirngboot.statetest;
+
+public class OrderProcessingServiceApplication {
+
+}
