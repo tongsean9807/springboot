@@ -1,6 +1,8 @@
 ﻿# dapr-springbootframework
 
-
+## Why DAPR
+### DAPR provide
+![image](https://github.com/tongsean9807/springboot/assets/105337968/d7adb2e7-917a-420f-9bb0-a7d3c205b873)
 
 ## How to run
 ```
@@ -8,7 +10,7 @@ dapr run --app-id my_app --app-port 6001 --dapr-http-port 3601 --dapr-grpc-port 
 ```
 ## Server will start
 Output:
-![image](https://github.com/tongsean9807/springboot/assets/105337968/d7adb2e7-917a-420f-9bb0-a7d3c205b873)
+
 
 ## Curl Test for state management
 DAPR has a state management and other capabilities. It will store the state in redis.
