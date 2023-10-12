@@ -4,13 +4,17 @@
 ### DAPR provide
 ![image](https://github.com/tongsean9807/springboot/assets/105337968/d7adb2e7-917a-420f-9bb0-a7d3c205b873)
 
+DAPR will provide all this container and infrastructure
+![image](https://github.com/tongsean9807/springboot/assets/105337968/6410f06f-4691-410b-896a-ca132758d05b)
+
+
 ## How to run
 ```
 dapr run --app-id my_app --app-port 6001 --dapr-http-port 3601 --dapr-grpc-port 60001 -- java -jar statetest-0.0.1-SNAPSHOT.jar
 ```
 ## Server will start
 Output:
-
+![image](https://github.com/tongsean9807/springboot/assets/105337968/21d6f652-d919-4413-8816-997edfd14c70)
 
 ## Curl Test for state management
 DAPR has a state management and other capabilities. It will store the state in redis.
