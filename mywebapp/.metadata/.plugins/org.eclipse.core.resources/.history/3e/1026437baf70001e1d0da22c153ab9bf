@@ -1,0 +1,9 @@
+package com.tongsean.springboot.mywebapp.login;
+
+public class loginAuthenticationService {
+	public boolean authenticate(String username, String password) {
+		boolean isValidUserName = username.equalsIgnoreCase("sean");
+		boolean isValidPassword = password.equalsIgnoreCase("123");
+		return false;
+	}
+}

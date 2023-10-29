@@ -1,0 +1,14 @@
+package com.tongsean.springboot.mywebapp.todo;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class TodoService {
+	
+	private static List<Todo> todos;
+	static {
+		todos.add(new Todo(1,"tongsean","Learn Haha",LocalDate.now().plusYears(1),false));
+		todos.add(new Todo(1,"tongsean","Learn S",LocalDate.now().plusYears(1),false));
+		todos.add(new Todo(1,"tongsean","Learn T",LocalDate.now().plusYears(1),false));
+	}
+}

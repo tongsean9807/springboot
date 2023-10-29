@@ -1,0 +1,5 @@
+package com.tongsean.springboot.mywebapp.login;
+
+public class loginAuthenticationService {
+
+}
